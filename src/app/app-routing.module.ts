@@ -8,7 +8,7 @@ const routes: Routes = [
   {path:'events',loadChildren:()=>import('./events/events.module').then(events => events.EventsModule)},
   {path:"roadToRiyadh",loadChildren:()=>import('./road-to/road-to.module').then(road=>road.RoadToModule)},
   {path:"planYourVisit",loadChildren:()=>import('./visits/visits.module').then(visits=>visits.VisitsModule)},
-  // {path:"footer",loadChildren:()=>import('./shared-modules/shared-modules.module').then(shared=>shared.SharedModulesModule)},
+  {path:"",loadChildren:()=>import('./shared-modules/shared-modules.module').then(shared=>shared.SharedModulesModule)},
 
   {path:"**",loadChildren:()=>import('./error/error.module').then(error=>error.ErrorModule)}
 ];
