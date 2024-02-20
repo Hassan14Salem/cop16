@@ -1,0 +1,47 @@
+.bgOfSecrion
+{
+  background-color: #074D63;
+  color: white;
+
+}
+
+span
+{
+    font-weight: bold;
+}
+span a{
+    color: inherit;
+
+}
+.headinfOfSection
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF6E1;
+
+}
+p
+{
+    color: #FFF6E1;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: justify;
+    font-family:normal normal normal 34px/1.4em  'Open Sans Condensed', sans-serif !important;
+    /* 'open sans condensed',sans-serif */
+
+}
+.height
+{
+    height: 100% !important;
+}
+.imageScroll img
+{
+    
+}
+.imageBG
+{
+    /* background-size: 100% 150% !important; */
+    background-attachment: fixed !important ;
+    background-image: url('../../../assets/images/road section/c4b02c_edd1adffde414d4fa0572feacf39acf5~mv2.jpg');
+    height: auto;
+}
