@@ -41,6 +41,7 @@
     color: rgb(163, 217, 246);
     font-family: 'Oswald',oswald-medium,oswald,sans-serif;
     font-size: 34px;
+    
  
 }
 .sectionWidth
@@ -56,6 +57,13 @@
  
 }
 
+.alignCardInfo
+{
+    display: flex;
+    flex-wrap: wrap !important;
+    align-items: stretch;
+
+}
 .imageWidth
 {
     width: 434px;

@@ -65,8 +65,20 @@ li
 
     padding: 10px !important;
 }
+.card4
+{
+    display: flex;
+    flex-wrap: wrap !important;
+}
 .social
 {
-    padding: 10px!important;
-    margin: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+}
+.social img
+{
+    width: 30px !important;
+    height: 30px !important;
+
 }
