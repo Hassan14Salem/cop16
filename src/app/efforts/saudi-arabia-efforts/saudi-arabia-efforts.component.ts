@@ -48,12 +48,19 @@ export class SaudiArabiaEffortsComponent implements OnInit{
    for(let i=0 ; i<this.dataOfSection.length ; i++)
    {
     
-    if( i%2 === 0) {
+    if( i % 2 === 0) {
       this.flag=true
-      
     } 
+
   }
  }
+ getStyle() {
+  return {
+    'imagePos': this.flag ? 'red' : 'black',
+    'font-size': this.flag ? '24px' : '16px',
+    // Add more styles as needed
+  };
+}
 
 
  ngOnInit(): void {

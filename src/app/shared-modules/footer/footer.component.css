@@ -42,7 +42,7 @@
     font-weight: bold;
     line-height: 1.41em;
    font-family:  normal normal bold 16px/1.4em quicksand,sans-serif;
-   padding: 10px !important;
+   
 }
 
 li
@@ -53,7 +53,7 @@ li
     font-family: normal normal normal 14px/1.4em quicksand,sans-serif;
     list-style: none;
 
-    padding: 10px !important;
+   
 }
 .copyRight
 {
@@ -62,8 +62,8 @@ li
     font-size: 16px;
     font-family: normal normal normal 14px/1.4em quicksand,sans-serif;
     list-style: none;
-
-    padding: 10px !important;
+    
+    
 }
 .card4
 {
